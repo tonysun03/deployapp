@@ -1,0 +1,14 @@
+{
+  "name": "mydocs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "tonysun",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.4"
+  },
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  }
+}
