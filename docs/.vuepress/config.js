@@ -1,5 +1,6 @@
 module.exports = {
     title: 'tonysun的博客',
+    base: '/page/',
     description: 'Just playing around',
     themeConfig: {
         nav: [
