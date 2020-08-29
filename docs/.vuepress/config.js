@@ -1,12 +1,12 @@
 module.exports = {
-    title: 'tonysun的博客',
-    base: '/page/',
+    title: '知棋然',
+    base: '/',
     description: 'Just playing around',
     themeConfig: {
         nav: [
-          { text: '社会人', link: '/' },
-          { text: '小佩奇', link: '/guide/' },
-          { text: '我是百度', link: 'https://baidu.com' },
+          { text: '生产力', link: '/' },
+          { text: '杂谈', link: '/guide/' },
+          { text: '还没有想好', link: 'https://baidu.com' },
         ],
         sidebar: [
             '/a/',
