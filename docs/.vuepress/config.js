@@ -14,11 +14,11 @@ module.exports = {
         ],
         sidebar: {
             '/js/':[{
-                title: '第一部分',
+                title: 'es5',
                 collapsable: false,
                 sidebarDepth: 2,
                 children:[
-                    'a',
+                    '继承',
                     'b'
                 ]
             },
