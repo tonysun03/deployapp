@@ -1,17 +1,44 @@
 module.exports = {
-    title: '知棋然',
+    title: '孙彤炜的博客',
     base: '/',
-    description: 'Just playing around',
+    description: '学习，分享，成长',
     themeConfig: {
+        lastUpdated: 'Last Updated', // string | boolean
         nav: [
-          { text: '生产力', link: '/' },
-          { text: '杂谈', link: '/guide/' },
-          { text: '还没有想好', link: 'https://baidu.com' },
+          { text: 'JS', link: '/js/' },
+          { text: 'VUE', link: '/vue/' },
+          { text: 'TypeScript', link: '/ts/' },
+          { text: '算法', link: '/algorithm/' },
+          { text: 'Webpack', link: '/webpack/' },
+          { text: 'GitHub', link: 'https://github.com/tonysun03' },
         ],
-        sidebar: [
-            '/a/',
-            '/guide/',
-            '/b/'
-          ]
+        sidebar: {
+            '/js/':[{
+                title: '第一部分',
+                collapsable: false,
+                sidebarDepth: 2,
+                children:[
+                    'a',
+                    'b'
+                ]
+            },
+            ],'/vue/':[
+                'a',
+                'guide',
+                'b'
+            ],'/ts/':[
+                'a',
+                'guide',
+                'b'
+            ],'/algorithm/':[
+                'a',
+                'guide',
+                'b'
+            ],'/webpack/':[
+                'a',
+                'guide',
+                'b'
+            ],
+        }
       }
   }
