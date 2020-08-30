@@ -9,7 +9,7 @@ module.exports = {
           { text: 'VUE', link: '/vue/' },
           { text: 'TypeScript', link: '/ts/' },
           { text: '算法', link: '/algorithm/' },
-          { text: 'Webpack', link: '/webpack/' },
+          { text: '工程化', link: '/webpack/' },
           { text: 'GitHub', link: 'https://github.com/tonysun03' },
         ],
         sidebar: {
