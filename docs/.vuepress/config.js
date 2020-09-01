@@ -19,7 +19,8 @@ module.exports = {
                 sidebarDepth: 2,
                 children:[
                     '继承',
-                    'b'
+                    'b',
+                    'Dom'
                 ]
             },
             ],'/vue/':[
