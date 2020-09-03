@@ -31,4 +31,18 @@ document.body.appendChild(element)
 ```html
 <!-- 返回注释内容 -->
 ```
-## 
+## CDATASection 类型
++ 只针对XML文档
++ nodeType 为 4
+```html
+<div><![CDATA[this is some content]]></div>
+```
+## DocumentType类型
++ nodeType 为 10 
++ docType 的名称 （html）
+## DocumentFragment类型
++ nodeType 为 11
+## Attr 类型
++ nodeType 是 2
++ nodeName 的值是特性的名称
++ nodeValue 的值是特性的值

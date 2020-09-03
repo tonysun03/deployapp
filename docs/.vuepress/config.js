@@ -20,7 +20,8 @@ module.exports = {
                 children:[
                     '继承',
                     'b',
-                    'Dom'
+                    'Dom',
+                    'DOM扩展'
                 ]
             },
             ],'/vue/':[
