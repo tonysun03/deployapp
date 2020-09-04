@@ -3,7 +3,7 @@ module.exports = {
     base: '/',
     description: '学习，分享，成长',
     themeConfig: {
-        lastUpdated: 'Last Updated', // string | boolean
+        lastUpdated: '最后更新', // string | boolean
         nav: [
           { text: 'JS', link: '/js/' },
           { text: 'VUE', link: '/vue/' },
@@ -22,7 +22,8 @@ module.exports = {
                     'b',
                     'Dom',
                     'DOM扩展',
-                    'DOM2和DOM3'
+                    'DOM2和DOM3',
+                    '事件'
                 ]
             },
             ],'/vue/':[
