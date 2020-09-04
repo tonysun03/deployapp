@@ -21,7 +21,8 @@ module.exports = {
                     '继承',
                     'b',
                     'Dom',
-                    'DOM扩展'
+                    'DOM扩展',
+                    'DOM2和DOM3'
                 ]
             },
             ],'/vue/':[
