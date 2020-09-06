@@ -23,7 +23,8 @@ module.exports = {
                     'Dom',
                     'DOM扩展',
                     'DOM2和DOM3',
-                    '事件'
+                    '事件',
+                    '表单脚本'
                 ]
             },
             ],'/vue/':[
