@@ -1,5 +1,5 @@
 module.exports = {
-    title: '孙彤炜的博客',
+    title: 'tony的学习笔记啊',
     base: '/',
     description: '学习，分享，成长',
     themeConfig: {
