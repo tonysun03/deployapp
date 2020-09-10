@@ -36,9 +36,8 @@ module.exports = {
                 'guide',
                 'b'
             ],'/algorithm/':[
-                'a',
-                'guide',
-                'b'
+                '数据结构',
+                '每日一题'
             ],'/webpack/':[
                 'a',
                 'guide',
