@@ -28,7 +28,7 @@ module.exports = {
                 ]
             },
             ],'/vue/':[
-                'a',
+                'composition',
                 'guide',
                 'b'
             ],'/ts/':[
